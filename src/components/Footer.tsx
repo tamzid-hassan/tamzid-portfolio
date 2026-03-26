@@ -14,17 +14,17 @@ export function Footer() {
             <span className="hidden sm:inline">+61 415 333 742</span>
           </a>
         </div>
-        
+
         <div className="flex items-center gap-6">
-          <a href="#" className="text-gray-500 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/tamzid-hassan01/" className="text-gray-500 hover:text-white transition-colors">
             <Linkedin size={24} />
           </a>
-          <a href="#" className="text-gray-500 hover:text-white transition-colors">
+          <a href="https://github.com/tamzid-hassan" className="text-gray-500 hover:text-white transition-colors">
             <Github size={24} />
           </a>
         </div>
       </div>
-      
+
       <div className="max-w-6xl mx-auto mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
         <p>© 2026 Tamzid Hassan Nabil. All rights reserved.</p>
         <p>Designed with precision.</p>

@@ -7,18 +7,18 @@ export function Projects() {
     {
       title: "GET-FIT",
       description: "An intelligent web app for custom fitness routines and muscle group targeting.",
-      tech: ["React JS", "Tailwind CSS"],
+      tech: ["React", "Vite", "Tailwind CSS"],
       link: "https://get-fit-pro.vercel.app/",
-      github: "#", // TODO: Add GitHub link
-      image: "https://picsum.photos/seed/fitness/1920/1080?blur=2" // TODO: Replace with actual project image
+      github: "https://github.com/tamzid-hassan/getFit",
+      image: "/images/getfit-project.png"
     },
     {
       title: "Dynamic Blog",
       description: "A complete, full-stack blogging platform with WYSIWYG editing, state management, and user authentication.",
-      tech: ["React", "Redux", "Tailwind", "Appwrite"],
+      tech: ["React", "Vite", "Redux Toolkit", "Appwrite", "Tailwind CSS"],
       link: "https://react-blog-app-omega.vercel.app/",
-      github: "#", // TODO: Add GitHub link
-      image: "https://picsum.photos/seed/blog/1920/1080?blur=2" // TODO: Replace with actual project image
+      github: "https://github.com/tamzid-hassan/react-blog-app",
+      image: "/images/blog-project.png"
     }
   ];
 
@@ -59,21 +59,21 @@ export function Projects() {
                       ))}
                     </div>
                     <div className="flex items-center gap-4 mt-auto">
-                      <motion.a 
+                      <motion.a
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        href={project.link} 
-                        target="_blank" 
+                        href={project.link}
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full font-semibold shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:shadow-[0_0_25px_rgba(255,255,255,0.6)] transition-shadow duration-300"
                       >
                         <ExternalLink size={18} /> Live Demo
                       </motion.a>
-                      <motion.a 
+                      <motion.a
                         whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.15)" }}
                         whileTap={{ scale: 0.95 }}
-                        href={project.github} 
-                        target="_blank" 
+                        href={project.github}
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-white/5 border border-white/10 text-white px-6 py-3 rounded-full font-semibold transition-colors duration-300"
                       >
@@ -82,9 +82,8 @@ export function Projects() {
                     </div>
                   </div>
                   <div className="relative h-64 md:h-auto overflow-hidden">
-                    {/* TODO: Replace src with actual project screenshots */}
-                    <img 
-                      src={project.image} 
+                    <img
+                      src={project.image}
                       alt={project.title}
                       referrerPolicy="no-referrer"
                       className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

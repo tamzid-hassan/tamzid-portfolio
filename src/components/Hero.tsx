@@ -44,7 +44,7 @@ export function Hero() {
                 transition={{ duration: 2.5, repeat: Infinity, repeatDelay: 1 }}
               >👋</motion.span><br />
               <span className="bg-gradient-to-r from-purple-400 via-indigo-300 to-white text-transparent bg-clip-text">
-                Pro-Level Engineering.
+                Full Stack Developer
               </span>
             </motion.h1>
 
@@ -54,7 +54,7 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-10 font-light leading-relaxed"
             >
-              5+ years of shipping digital services for the world's biggest brands. Currently mastering Information Technology at Flinders University, Australia.
+              4+ years of enterprise exp of crafting digital products for local & international biggest brands. Currently mastering Information Technology at Flinders University, Australia.
             </motion.p>
 
             <motion.div
@@ -101,7 +101,7 @@ export function Hero() {
               <div className="relative w-full h-full rounded-[3rem] border border-white/20 bg-white/5 backdrop-blur-2xl overflow-hidden shadow-2xl group">
 
                 <img
-                  src="public\images\tamzid_hassan_coding.png"
+                  src="\images\tamzid_hassan_coding.png"
                   alt="Tamzid Coding"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out"
@@ -117,7 +117,7 @@ export function Hero() {
                   className="absolute bottom-6 left-6 right-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 flex items-center gap-4"
                 >
                   <div className="w-3 h-3 rounded-full bg-green-400 shadow-[0_0_10px_rgba(74,222,128,0.8)] animate-pulse" />
-                  <p className="text-sm font-medium text-white">Building the future of the web</p>
+                  <p className="text-sm font-medium text-white">Actively building the future of the web</p>
                 </motion.div>
               </div>
             </motion.div>
