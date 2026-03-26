@@ -44,7 +44,7 @@ export function Hero() {
                 transition={{ duration: 2.5, repeat: Infinity, repeatDelay: 1 }}
               >👋</motion.span><br />
               <span className="bg-gradient-to-r from-purple-400 via-indigo-300 to-white text-transparent bg-clip-text">
-                Full Stack Developer
+                I build things for the web.
               </span>
             </motion.h1>
 
@@ -54,7 +54,7 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-10 font-light leading-relaxed"
             >
-              4+ years of enterprise exp of crafting digital products for local & international biggest brands. Currently mastering Information Technology at Flinders University, Australia.
+              4+ years building digital products for local & global brands. Now based in Adelaide, finishing a Master of IT at Flinders, and looking for the next problem worth solving.
             </motion.p>
 
             <motion.div
@@ -69,7 +69,7 @@ export function Hero() {
                 href="#projects"
                 className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] transition-shadow duration-300"
               >
-                View Work <ArrowRight size={18} />
+                See My Work  <ArrowRight size={18} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
@@ -77,7 +77,7 @@ export function Hero() {
                 href="mailto:iamtamzid96@gmail.com"
                 className="w-full sm:w-auto bg-white/5 backdrop-blur-md border border-white/10 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-2 transition-colors duration-300"
               >
-                Contact Me <Mail size={18} />
+                Let's Talk <Mail size={18} />
               </motion.a>
             </motion.div>
           </div>

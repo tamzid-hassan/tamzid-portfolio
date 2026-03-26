@@ -11,8 +11,8 @@ export function About() {
   useEffect(() => {
     if (textRef.current) {
       const words = textRef.current.querySelectorAll('.word');
-      
-      gsap.fromTo(words, 
+
+      gsap.fromTo(words,
         { opacity: 0.2, color: "#4b5563" },
         {
           opacity: 1,
@@ -29,8 +29,8 @@ export function About() {
     }
   }, []);
 
-  const text = "Crafting digital experiences for Dell, Microsoft, Pfizer, and GSK. I bring 5+ years of elite web development to the table. Now based in Adelaide, Australia, I am seeking Graduate roles and Internships to push the boundaries of what's possible on the web.";
-  
+  const text = "I've spent 4+ years crafting real digital products for some of the world's most recognised brands. High-traffic web apps on Azure, HTML5 banner campaigns for Dell, content platforms built inside Adobe Experience Manager for Pfizer and GSK. Now I'm in Adelaide, wrapping up a Master of IT at Flinders University. I'm not here to coast through a degree — I'm here to bring that enterprise experience into the Australian tech scene and keep growing while I do it.\n Clean code. Clear communication. Work I'm actually proud to put my name on.";
+
   return (
     <section id="about" className="py-32 px-6 relative">
       <div className="max-w-4xl mx-auto">

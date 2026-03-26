@@ -15,7 +15,7 @@ export function Experience() {
       role: "Web Developer",
       company: "Wunderman Thompson Studios",
       period: "Jun 2020 – May 2024",
-      description: "Built complex HTML5/GSAP animated banners for Dell, maintained .NET MVC sites for Microsoft, and worked on Adobe Experience Manager (AEM) for Pfizer & GSK."
+      description: "Built and shipped digital products from high-traffic web apps on Azure to pixel-perfect HTML5 banners animated with GSAP. Agile sprints, cross-functional teams, and zero missed deadlines."
     },
     {
       role: "Asst. Software Engineer",
@@ -27,13 +27,13 @@ export function Experience() {
       role: ".NET Developer",
       company: "ERP Systems",
       period: "Sep 2018 - Apr 2019",
-      description: "Engineered robust enterprise resource planning solutions utilizing the .NET framework."
+      description: "Built a full ERP system for a healthcare client from scratch — ASP.NET MVC 5, Entity Framework, Crystal Reports. Optimised SQL queries until the database stopped being the bottleneck."
     },
     {
       role: "Future Innovator",
-      company: "Your Company?",
+      company: "Your team?",
       period: "2026 & Beyond",
-      description: "Ready to push the boundaries of what's possible on the tecnical horizon!"
+      description: "Adelaide-based and immediately available for graduate or part-time roles. I bring enterprise-level thinking, a genuine interest in growing, and code I'm not embarrassed to commit."
     }
   ];
 
@@ -79,14 +79,14 @@ export function Experience() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4">Proven Performance.</h2>
-          <p className="text-xl text-gray-400">A timeline of engineering excellence.</p>
+          <p className="text-xl text-gray-400">Where I've Been. Four years of real work for real clients — here's the short version.</p>
         </motion.div>
       </div>
 
       {/* Scrolling Container */}
       <div
         ref={scrollRef}
-        className="flex flex-col md:flex-row gap-8 md:gap-16 px-6 md:px-24 md:pt-40 items-center md:w-max relative z-0"
+        className="flex flex-col md:flex-row gap-8 md:gap-16 px-6 md:px-24 md:pt-70 items-center md:w-max relative z-0"
       >
         {/* Horizontal Timeline Line (Desktop Only) */}
         <div className="absolute top-1/2 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-y-1/2 pointer-events-none hidden md:block" />

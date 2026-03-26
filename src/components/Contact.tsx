@@ -45,7 +45,7 @@ export function Contact() {
           className="mb-12 text-center md:text-left"
         >
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-4 text-white">Let's Connect.</h2>
-          <p className="text-xl text-gray-400">Ready to build the future? Drop me a message.</p>
+          <p className="text-xl text-gray-400">Whether you're hiring, collaborating, or just want to talk tech — I'd love to hear from you. I reply to every message.</p>
         </motion.div>
 
         <motion.div

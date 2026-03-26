@@ -32,7 +32,7 @@ export function Projects() {
           transition={{ duration: 0.8 }}
           className="mb-16"
         >
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Featured Innovations.</h2>
+          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Side projects outside of 9-to-5.</h2>
         </motion.div>
 
         <div className="space-y-12">
