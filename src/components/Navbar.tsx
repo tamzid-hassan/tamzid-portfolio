@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 
 export function Navbar() {
@@ -22,15 +22,18 @@ export function Navbar() {
           <a href="#contact" className="hover:text-white transition-colors">Contact</a>
         </div>
 
-        <motion.button
+        {/* Replaced motion.button with motion.a */}
+        <motion.a
+          href="/documents/Tamzid_Hassan_Nabil_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold flex items-center gap-2 shadow-[0_0_15px_rgba(255,255,255,0.2)] hover:shadow-[0_0_25px_rgba(255,255,255,0.6)] transition-shadow duration-300"
         >
           <Download size={16} />
           <span className="hidden sm:inline">Resume</span>
-          <a href="/public/documents/Resume - Tamzid Hassan Nabil.pdf" target="_blank" rel="noopener noreferrer" className="absolute inset-0 w-full h-full"></a>
-        </motion.button>
+        </motion.a>
       </div>
     </motion.nav>
   );
